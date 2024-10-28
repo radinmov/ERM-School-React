@@ -8,9 +8,8 @@ import MobileLogin from "../../Componets/MobileLogin/MobileLogin"
 export const Login = () => {
     useTitle("Login")
     return (
-        <div>
+        <div className="h-lvh">
             <MobileLogin  />
-            <LoginForm />
         </div>
     )
 }
