@@ -14,8 +14,8 @@ export default function LoginForm  ({icon}) {
             من را به یاد داشته باش
           </label>
         </div>
-      <button className='flex flex-row mt-6 mx-auto  bg-blue-600 rounded-lg  text-white p-3 '>
-        <span className='px-1'>srh</span>
+      <button className=' mt-4 mx-auto  bg-blue-600 rounded-lg  text-white px-4 py-2 flex items-center'>
+        <span className='ml-2'>srh</span>
         <p className='font-extrabold items-center'>
           ورود
         </p>
