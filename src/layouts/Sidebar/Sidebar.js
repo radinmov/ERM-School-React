@@ -2,40 +2,39 @@ import { FaUserGraduate, FaTools, FaTasks, FaBook, FaUtensils, FaQuestionCircle,
 
 export const Sidebar = () => {
     return (
-        <aside className="w-64 bg-gray-100 border-r p-4  h-screen">
-            <h2 className="text-xl font-bold text-blue-700 mb-6">دانشور</h2>
+        <aside className="w-64 bg-white shadow-md border-r p-4">
             <ul className="space-y-4">
-                <li className="flex items-center space-x-3">
-                    <FaUserGraduate className="text-gray-500" />
+                <li className="flex justify-center gap-8 items-center space-x-3">
                     <span>پروفایل دانش آموز</span>
+                    <FaUserGraduate className="text-gray-500" />
                 </li>
-                <li className="flex items-center space-x-3">
-                    <FaTools className="text-gray-500" />
+                <li className="flex justify-center gap-8 items-center space-x-3">
                     <span>درخواست لوازم تحریر</span>
+                    <FaTools className="text-gray-500" />
                 </li>
-                <li className="flex items-center space-x-3">
-                    <FaTasks className="text-gray-500" />
+                <li className="flex justify-center gap-8 items-center space-x-3">
                     <span>سامانه تکالیف</span>
+                    <FaTasks className="text-gray-500" />
                 </li>
-                <li className="flex items-center space-x-3">
-                    <FaBook className="text-gray-500" />
+                <li className="flex justify-center gap-8 items-center space-x-3">
                     <span>مدیریت آزمون</span>
+                    <FaBook className="text-gray-500" />
                 </li>
-                <li className="flex items-center space-x-3">
-                    <FaUtensils className="text-gray-500" />
+                <li className="flex justify-center gap-8 items-center space-x-3">
                     <span>سامانه غذا</span>
+                    <FaUtensils className="text-gray-500" />
                 </li>
-                <li className="flex items-center space-x-3">
-                    <FaQuestionCircle className="text-gray-500" />
+                <li className="flex justify-center gap-8 items-center space-x-3">
                     <span>سامانه تیکتینگ</span>
+                    <FaQuestionCircle className="text-gray-500" />
                 </li>
-                <li className="flex items-center space-x-3">
-                    <FaCalendarAlt className="text-gray-500" />
+                <li className="flex justify-center gap-8 items-center space-x-3">
                     <span>سامانه حضور غیاب</span>
+                    <FaCalendarAlt className="text-gray-500" />
                 </li>
-                <li className="flex items-center space-x-3">
-                    <FaTrophy className="text-gray-500" />
+                <li className="flex justify-center gap-8 items-center space-x-3">
                     <span>سامانه جایزه دهی</span>
+                    <FaTrophy className="text-gray-500" />
                 </li>
             </ul>
         </aside>
