@@ -8,17 +8,17 @@ export default function LoginForm  ({icon}) {
         <InputField type='text' placeholder='نام کاربری'/>
         <InputField type='password' placeholder='رمز عبور'/>
         <div className='flex justify-between items-center text-sm mt-4'>
-        <a href='/' className='text-blue-600'>فراموشی رمز عبور!</a>
-          <label className='flex items-center'>
-            <input type='checkbox' className='mr-1' />
-            من را به یاد داشته باش
-          </label>
+          <label className='flex items-center text-center justify-center'>
+            مرا به یاد داشته باش
+          <input type='checkbox' className='mr-1 flex items-end justify-center' /> 
+          </label>        
+          <a href='/' className='text-blue-600'>فراموشی رمز عبور!</a>
         </div>
       <button className=' mt-4 mx-auto  bg-blue-600 rounded-lg  text-white px-4 py-2 flex items-center'>
-        <span className='ml-2'>srh</span>
-        <p className='font-extrabold items-center'>
-          ورود
+        <p className='font-extrabold items-center px-2'>
+           ورود
         </p>
+        <span className='ml-2'>srh</span>
       </button>
     </div>  
   )

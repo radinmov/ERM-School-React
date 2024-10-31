@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
 
-const ProfileImage = () => {
+const ProfileImage = ({ width = 'w-36', height = 'h-36' }) => {
   return (
     <> 
-      <img className='w-36 h-36 bg-gray-600 rounded-full mx-auto mt-4' src="https://via.placeholder.com/150" alt="Profile Image"/>
+      <img 
+        className={`${width} ${height} bg-gray-600 rounded-full md:rounded-lg mx-auto mt-4`} 
+        src="https://via.placeholder.com/150" 
+        alt="Profile Image"
+      />
     </>
-  )
+  );
 }
 
-export default ProfileImage
+export default ProfileImage;
+
