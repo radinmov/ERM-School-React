@@ -1,6 +1,6 @@
 import useTitle from "../../Componets/Hook/useTitle";
-import { Sidebar } from "../../layouts/Sidebar/Sidebar";
 import { Header } from "../../layouts/Header/Header";
+import Sidebar from "../../layouts/Sidebar/Sidebar";
 
 export const Home = () => {
     useTitle("HomePage");
@@ -9,7 +9,7 @@ export const Home = () => {
             <Header />
             <div className="flex flex-col md:flex-row">
                 <Sidebar />
-                <main className="flex-1 flex-col p-4 md:p-8">
+                <main className="flex-1 flex-col p-4 md:p-8 max-md:hidden">
                     <section className="flex flex-col flex-wrap gap-4 md:gap-6">
                         {/* Card 1 */}
                         <div className="w-72 h-64 flex flex-col items-center justify-center w-full  bg-blue-500 p-6 text-white shadow-md rounded-lg">
