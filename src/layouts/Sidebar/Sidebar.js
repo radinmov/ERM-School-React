@@ -57,7 +57,7 @@ const Sidebar = () => {
 const DashboardButton = ({ icon, label }) => (
   <div className=" flex flex-col md:flex-row md:justify-start items-center justify-center w-full h-32 md:h-14 mb-1 bg-blue-600 md:text-gray-500 md:bg-white md:shadow-md md:border-r p-4 text-white rounded-lg shadow-lg ">
     {icon}
-    <p className="mt-2 px-3 text-md font-bold">{label}</p>
+    <p className="mt-2 px-3 text-md font-bold ">{label}</p>
   </div>
 );
 
