@@ -1,5 +1,6 @@
 import React from 'react';
-import LoginForm from '../Login/LoginForm/LoginForm';
+
+import LoginForm from '../LoginForm/LoginForm';
 import WellcomeSquare from '../WellcomeSquare/WellcomeSquare';
 
 const DesktopLogin = () => {

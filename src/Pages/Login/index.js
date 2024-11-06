@@ -2,9 +2,10 @@ import HeaderCurve from "../../Componets/Login/HeaderCurve/HeaderCurve";
 import ProfileImage from "../../Componets/ProfileImage/ProfileImage";
 import useTitle from "../../Componets/Hook/useTitle";
 import LoginForm from "../../Componets/Login/LoginForm/LoginForm";
+import DesktopLogin from "../../Componets/Login/DesktopLogin/DesktopLogin";
 
-import DesktopLogin from "../../Componets/DesktopLogin/DesktopLogin";
-import WellcomeSquare from "../../Componets/WellcomeSquare/WellcomeSquare";
+
+
 
 export const Login = () => {
     useTitle("Login");

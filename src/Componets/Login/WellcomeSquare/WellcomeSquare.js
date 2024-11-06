@@ -1,5 +1,6 @@
 import React from 'react';
-import ProfileImage from '../ProfileImage/ProfileImage';
+import ProfileImage from '../../ProfileImage/ProfileImage';
+
 
 const WellcomeSquare = () => {
   return (
