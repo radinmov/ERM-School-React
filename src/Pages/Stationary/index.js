@@ -1,12 +1,11 @@
 import React from 'react';
 
-export const UserProfile = () => {
+export const Stationary = () => {
  
   return (
       <div className="h-screen">
        
-       UserProfile
+       Stationary
       </div>
   );
 };
-

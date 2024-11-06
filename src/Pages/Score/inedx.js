@@ -1,12 +1,11 @@
 import React from 'react';
 
-export const UserProfile = () => {
+export const Score = () => {
  
   return (
       <div className="h-screen">
        
-       UserProfile
+       Score
       </div>
   );
 };
-

@@ -1,12 +1,11 @@
 import React from 'react';
 
-export const UserProfile = () => {
+export const ClassManegment = () => {
  
   return (
       <div className="h-screen">
        
-       UserProfile
+       ClassManegment
       </div>
   );
 };
-

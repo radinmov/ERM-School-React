@@ -1,12 +1,11 @@
 import React from 'react';
 
-export const UserProfile = () => {
+export const Food = () => {
  
   return (
       <div className="h-screen">
        
-       UserProfile
+       Food
       </div>
   );
 };
-
