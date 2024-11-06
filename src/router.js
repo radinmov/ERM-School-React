@@ -13,7 +13,7 @@ import { Food } from "./Pages/Food";
 
 
 const routes = createBrowserRouter([
-  
+
   {
     path: '/',
     element: <Home />
@@ -40,6 +40,8 @@ const routes = createBrowserRouter([
   },
   {
     path: '/HomeWork/HomeWorkUpload',
+
+    
     element: <HomeWorkUpload />
   },
   {
