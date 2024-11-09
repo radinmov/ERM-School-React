@@ -6,7 +6,7 @@ export const Home = () => {
     useTitle("HomePage");
     return (
         <div className="min-h-screen bg-gray-50">
-            <Header />
+          
             <div className="flex flex-col md:flex-row">
                 <Sidebar />
                 <main className="flex-1 flex-col p-4 md:p-8 max-md:hidden">

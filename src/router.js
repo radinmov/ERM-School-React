@@ -10,6 +10,7 @@ import { ClassManegment } from "./Pages/ClassManegment";
 import { UsersManegment } from "./Pages/UsersManegment";
 import { Ticketing } from "./Pages/Ticketing";
 import { Food } from "./Pages/Food";
+import { Score } from "./Pages/Score/inedx";
 
 
 const routes = createBrowserRouter([
@@ -59,6 +60,10 @@ const routes = createBrowserRouter([
   {
     path: '/Food',
     element: <Food />
+  },
+  {
+    path: '/Score',
+    element: <Score />
   },
 
 ]);
