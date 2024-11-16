@@ -41,8 +41,6 @@ const routes = createBrowserRouter([
   },
   {
     path: '/HomeWork/HomeWorkUpload',
-
-    
     element: <HomeWorkUpload />
   },
   {
