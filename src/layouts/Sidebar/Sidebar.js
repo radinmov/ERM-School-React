@@ -60,7 +60,7 @@ const Sidebar = () => {
         <DashboardButton
           icon={<FaEdit size={45} />}
           label="درخواست لوازم تحریر"
-          onClick={() => handleNavigation('/Stationary', 'درخواست لوازم تحریر')}
+          onClick={() => handleNavigation('/', 'درخواست لوازم تحریر')}
           active={activeButton === 'درخواست لوازم تحریر'}
         />
         <DashboardButton
